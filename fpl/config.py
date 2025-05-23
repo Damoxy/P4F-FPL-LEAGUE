@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # loads variables from .env automatically
+load_dotenv()  # loads variables from .env
 
 LEAGUE_ID = os.getenv("LEAGUE_ID")
 
