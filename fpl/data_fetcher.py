@@ -1,5 +1,5 @@
 import requests
-from config import FPL_LEAGUE_URL, FPL_FIXTURES_URL
+from fpl.config import FPL_LEAGUE_URL, FPL_FIXTURES_URL
 
 def fetch_league_standings():
     response = requests.get(FPL_LEAGUE_URL)
