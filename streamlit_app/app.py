@@ -7,7 +7,7 @@ from fpl.data_processing import map_gameweek_to_month, aggregate_monthly_scores
 
 def main():
     st.title("FPL Monthly League Standings")
-    st.write("Fetching data for League ID:", LEAGUE_ID)
+    st.write("Fetching the data for League ID:", LEAGUE_ID)
 
     fixtures = fetch_gameweek_dates()
     gw_to_month = map_gameweek_to_month(fixtures)
